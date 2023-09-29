@@ -1,0 +1,21 @@
+PREFIX olis: <https://olis.dev/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+
+<https://linked.data.gov.au/dataset/bdr/graph/agents>
+    a olis:RealGraph ;
+    rdfs:seeAlso "/agents/*.ttl" ;
+    sdo:name "Agents" ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/graph/background-models>
+    a olis:RealGraph ;
+    rdfs:seeAlso "/background/*.ttl" ;
+    sdo:name "Background Models" ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/graph/vocabs>
+    a olis:RealGraph ;
+    rdfs:seeAlso "/vocabularies/*.ttl" ;
+    sdo:name "BDR Vocabularies" ;
+.

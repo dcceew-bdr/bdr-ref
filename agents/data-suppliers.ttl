@@ -1,0 +1,76 @@
+PREFIX bdr: <https://linked.data.gov.au/def/bdr/>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/bdr/agent/ACT-EPSDD>
+    a sdo:Organization ;
+    sdo:identifier "31 432 729 493"^^bdr:ABN ;
+    sdo:name "ACT Environment Planning and Sustainable Development Directorate" ;
+    sdo:url "https://www.environment.act.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/agent/NSW-DPIE>
+    a sdo:Organization ;
+    sdo:identifier "20 770 707 468"^^bdr:ABN ;
+    sdo:name "NSW Department of Planning and Environment" ;
+    sdo:url "https://www.dpie.nsw.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/agent/NT-DEPWS>
+    a sdo:Organization ;
+    sdo:identifier "84 085 734 992"^^bdr:ABN ;
+    sdo:name "NT Department of Environment Parks and Water Security" ;
+    sdo:url "https://depws.nt.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/agent/QLD-DES>
+    a sdo:Organization ;
+    sdo:identifier "46 640 294 485"^^bdr:ABN ;
+    sdo:name "Department of Environment and Science" ;
+    sdo:url "https://www.des.qld.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/agent/SA-DEW>
+    a sdo:Organization ;
+    sdo:identifier "36 702 093 234"^^bdr:ABN ;
+    sdo:name "SA Department for Environment and Water" ;
+    sdo:url "https://www.environment.sa.gov.au/"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/agent/TAS-DNRE>
+    a sdo:Organization ;
+    sdo:identifier "58 259 330 901"^^bdr:ABN ;
+    sdo:name "TAS Department of Natural Resources and Environment" ;
+    sdo:url ""^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/agent/VIC-DEECA>
+    a sdo:Organization ;
+    sdo:identifier "90 719 052 204"^^bdr:ABN ;
+    sdo:name "VIC Department of Energy, Environment and Climate Action" ;
+    sdo:successorOf <https://linked.data.gov.au/dataset/bdr/agent/VIC-DELWP> ;
+    sdo:url "https://www.deeca.vic.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/agent/VIC-DELWP>
+    a sdo:Organization ;
+    sdo:identifier "90 719 052 204"^^bdr:ABN ;
+    sdo:name "VIC Department of Environment Land Water and Planning" ;
+    sdo:predecessorOf <https://linked.data.gov.au/dataset/bdr/agent/VIC-DEECA> ;
+    sdo:url "https://nre.tas.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/agent/WA-BIO>
+    a sdo:Organization ;
+    sdo:name "WA Biodiversity Information Office" ;
+    sdo:parentOrganization <https://linked.data.gov.au/dataset/bdr/agent/WA-DBCA> ;
+    sdo:url "https://bio.wa.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/dataset/bdr/agent/WA-DBCA>
+    a sdo:Organization ;
+    sdo:identifier "38 052 249 024"^^bdr:ABN ;
+    sdo:name "WA Department of Biodiversity Conservation and Attractions" ;
+    sdo:subOrganization <https://linked.data.gov.au/dataset/bdr/agent/WA-BIO> ;
+    sdo:url "https://www.dbca.wa.gov.au"^^xsd:anyURI ;
+.

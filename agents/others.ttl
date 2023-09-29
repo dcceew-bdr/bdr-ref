@@ -1,0 +1,25 @@
+PREFIX bdr: <https://linked.data.gov.au/def/bdr/>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/dataset/bdr/agent/gaia-resources>
+    a sdo:Organization ;
+    sdo:identifier "94 119 508 824"^^bdr:ABN ;
+    sdo:name "Gaia Resources" ;
+    sdo:url "https://www.gaiaresources.com.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/dcceew>
+    a sdo:Organization ;
+    sdo:identifier "63 573 932 849"^^bdr:ABN ;
+    sdo:name "Department of Climate Change, Energy, the Environment and Water" ;
+    sdo:successorOf <https://linked.data.gov.au/org/dawe> ;
+    sdo:url "https://www.dcceew.gov.au"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/dawe>
+    a sdo:Organization ;
+    sdo:name "Department of Agriculture Water and the Environment" ;
+    sdo:predecessorOf <http://linked.data.gov.au/org/dawe> ;
+    sdo:url "https://www.awe.gov.au"^^xsd:anyURI ;
+.
