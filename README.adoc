@@ -28,13 +28,14 @@ This content is available for reuse under the terms of the https://creativecommo
 This repository is developed by the BDR team within DCCEEW. Technical lead is:
 
 *Nicholas Car* +
-_Delivery Manager_ +
-Biodiversity Data Repository +
+_Data Architect_ +
 nicholas.car@dcceew.gov.au +
 https://orcid.org/0000-0002-8742-7730 +
 
 at the
 
+*Biodiversity Data Repository Team* +
 Department of Climate Change, Energy, the Environment and Water +
+bdr@dcceew.gov.au +
 https://www.dcceew.gov.au
 
