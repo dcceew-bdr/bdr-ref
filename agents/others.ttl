@@ -20,6 +20,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 <https://linked.data.gov.au/org/dawe>
     a sdo:Organization ;
     sdo:name "Department of Agriculture Water and the Environment" ;
-    sdo:predecessorOf <http://linked.data.gov.au/org/dawe> ;
+    sdo:predecessorOf <http://linked.data.gov.au/org/dcceew> ;
     sdo:url "https://www.awe.gov.au"^^xsd:anyURI ;
 .
