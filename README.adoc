@@ -27,10 +27,10 @@ This content is available for reuse under the terms of the https://creativecommo
 
 This repository is developed by the BDR team within DCCEEW. Technical lead is:
 
-*Nicholas Car* +
-_Data Architect_ +
-nicholas.car@dcceew.gov.au +
-https://orcid.org/0000-0002-8742-7730 +
+*Ashley Sommer* +
+_Senior Software Engineer_ +
+ashley.sommer@csiro.au +
+https://orcid.org/0000-0003-0590-0131 +
 
 at the
 
@@ -38,4 +38,17 @@ at the
 Department of Climate Change, Energy, the Environment and Water +
 bdr@dcceew.gov.au +
 https://www.dcceew.gov.au
+
+_and_ Data Architect is: 
+
+*Nicholas Car* +
+_Data Architect_ +
+nick@kurrawong.ai +
+https://orcid.org/0000-0002-8742-7730 +
+
+at
+
+*Kurrawong AI* +
+bdr@kurrawong.ai +
+https://kurrawong.ai
 
